@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="12r.css">
+  </head>
+
+
+  <body>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <p class="heading">Rock Paper Scissors</p>
+        <div>
+            <button class="choice-button js-rock-button" type="button">
+              <img class="choice-image" src="images/rock-emoji.png"></button>
+      
+          <button class="choice-button js-paper-button">
+          <img class="choice-image" src="images/paper-emoji.png"></button>
+      
+          <button class="choice-button js-scissors-button">
+          <img class="choice-image" src="images/scissors-emoji.png"></button>
+        </div>
+    
+        <p class="js-result result-para"></p>
+        <p class="js-guess choice-info"></p>
+        <p class="js-score score"></p>
+    
+        <div class="button-div">
+            <button class="glow-on-hover js-reset-button" type="button"
+            >Reset Score</button>
+
+          <button class="glow-on-hover js-autoplay-button" 
+          >Auto Play</button>
+        </div>
+
+        <div class="para-div" style="color: white;"></div>
+    
+    </div>
+    
+
+    <script src="12r.js"></script>
+  </body>
+</html>
